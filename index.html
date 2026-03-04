@@ -152,8 +152,8 @@
   .choice-btn.correct { border-color: var(--green); background: #f0fdf4; color: var(--green); font-weight: 600; }
   .choice-btn.wrong { border-color: var(--red); background: #fef2f2; color: var(--red); }
   .feedback { display: none; margin-top: 14px; padding: 12px 16px; border-radius: 10px; font-size: 13px; line-height: 1.6; font-weight: 500; }
-  .feedback.correct { background: #d1fae5; color: #065f46; display: none; }
-  .feedback.wrong { background: #fee2e2; color: #991b1b; display: none; }
+  .feedback.correct { background: #d1fae5; color: #065f46; display: block; }
+  .feedback.wrong { background: #fee2e2; color: #991b1b; display: block; }
 
   /* LINKS */
   .links-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin: 20px 0; }
@@ -422,9 +422,9 @@
         <div class="video-must-watch">⚠️ You must watch the full video before continuing. Skipping is disabled.</div>
         <div class="video-label">📹 Required Video — Understanding Corruption Offences</div>
         <div class="video-wrap" id="videoWrap">
-          <https://www.youtube.com/watch?v=kgU9pOty5Uc>
+          <!-- Replace VIDEO_ID with your actual YouTube video ID -->
           <iframe id="trainingVideo"
-            src="https://www.youtube.com/watch?v=kgU9pOty5Uc-?enablejsapi=1&controls=0&disablekb=1&rel=0&modestbranding=1&playsinline=1"
+            src="https://www.youtube.com/embed/kgU9pOty5Uc?enablejsapi=1&controls=0&disablekb=1&rel=0&modestbranding=1&playsinline=1"
             allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <div class="video-overlay"></div>
           <div class="video-bottom-block"></div>
@@ -595,9 +595,10 @@
       <div class="links-grid">
         <div class="link-card"><a href="https://www.sprm.gov.my" target="_blank">MACC Official Website (SPRM)</a></div>
         <div class="link-card"><a href="https://www.sprm.gov.my/macc/images/akta/MACC_Act_2009_English.pdf" target="_blank">MACC Act 2009</a></div>
-        <div class="link-card"><a href="https://sites.google.com/revenuemonster.my/people-connect/asset-library/risk-compliance" target="_blank">SuperApp ABC Policy (People Connect)</a></div>
-        <div class="link-card"><a href="https://www.sprm.gov.my/admin/files/sprm/assets/pdf/penguatkuasaan/akta-A1567-bi.pdf" target="_blank">MACC Amendment Act 2018</a></div>
-        <div class="link-card"><a href="https://sites.google.com/revenuemonster.my/people-connect/Home-" target="_blank">People Connect (HR Portal)</a></div>
+        <div class="link-card"><a href="#" target="_blank">SuperApp ABC Policy (People Connect)</a></div>
+        <div class="link-card"><a href="#" target="_blank">MACC Amendment Act 2018</a></div>
+        <div class="link-card"><a href="https://www.sprm.gov.my/macc/images/pelan/NACP_2019-2023.pdf" target="_blank">National Anti-Corruption Plan 2019–2023</a></div>
+        <div class="link-card"><a href="#" target="_blank">People Connect (HR Portal)</a></div>
       </div>
 
       <div class="scenario">
@@ -624,7 +625,7 @@
     <h2>Training Completed</h2>
     <p>This certifies that you have successfully completed the<br>
     <strong>Anti-Bribery &amp; Corruption Training </strong><br>
-    for SuperApp Group </p>
+    for SuperApp Group — conducted by the Risk and Compliance Department.</p>
     <div class="cert-date" id="certDate"></div>
   </div>
 </div>
