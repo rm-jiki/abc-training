@@ -1175,7 +1175,7 @@ function submitQuiz() {
   document.getElementById('qrScore').textContent = correct+'/'+total+' ('+pct+'%)';
   document.getElementById('qrMsg').textContent = passed
     ? 'Congratulations! You have passed the assessment and completed the training.'
-    : 'You scored below the 70% pass mark. Please review the modules and try again.';
+    : 'You scored below the 80% pass mark. Please review the modules and try again.';
 
   const btns = document.getElementById('qrBtns');
   if (passed) {
